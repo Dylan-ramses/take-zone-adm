@@ -27,7 +27,7 @@ img {
 }
 .menu-text {
     display: grid;
-    justify-content: space-around;
+    width: 100%;
 }
 .open-clouse-menu {
     background: lightgray;
@@ -37,10 +37,10 @@ img {
 }
 .list-menu {
  display: grid;
- grid-template-rows: 1fr 1fr 1fr 2fr 1fr 6fr;
+ grid-template-rows: 1fr 1fr 1fr 1fr 1fr 6fr;
  list-style: none;
- width:122px;
- padding-left: 0;
+ width: 100%;
+ padding-left: 4.2rem;
 
 }
 li {
